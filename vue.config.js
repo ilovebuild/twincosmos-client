@@ -3,6 +3,8 @@ const target = 'http://3.37.61.15:3000';
 
 
 module.exports = {
+  publicPath: '/twincosmos-client/',
+  outputDir: 'docs',
   devServer: {
     port: 8080,
     proxy: {
